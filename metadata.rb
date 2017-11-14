@@ -2,8 +2,8 @@ name 'nginx'
 maintainer 'Yann Yu'
 maintainer_email 'yannhyu@yahoo.com'
 license 'Apache-2.0'
-description 'Installs/Configures nginx'
-long_description 'Installs/Configures nginx'
+description 'Installs/Configures a simple web site using nginx web server.'
+long_description IO.read("#{File.dirname(__FILE__)}/README.md")
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
